@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3809343E201D068400D1A32B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809343D201D068400D1A32B /* AppDelegate.swift */; };
+		38093440201D068400D1A32B /* KVPrimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809343F201D068400D1A32B /* KVPrimeTableViewController.swift */; };
+		38093442201D068400D1A32B /* KVMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38093441201D068400D1A32B /* KVMapViewController.swift */; };
+		38093445201D068400D1A32B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38093443201D068400D1A32B /* Main.storyboard */; };
+		38093447201D068400D1A32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38093446201D068400D1A32B /* Assets.xcassets */; };
+		3809344A201D068400D1A32B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38093448201D068400D1A32B /* LaunchScreen.storyboard */; };
+		38093455201D068500D1A32B /* DataPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38093454201D068500D1A32B /* DataPadTests.swift */; };
+		38093460201D068500D1A32B /* DataPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809345F201D068500D1A32B /* DataPadUITests.swift */; };
+		38093478201D086400D1A32B /* DataPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38093476201D086400D1A32B /* DataPad.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38093451201D068400D1A32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38093432201D068400D1A32B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38093439201D068400D1A32B;
+			remoteInfo = DataPad;
+		};
+		3809345C201D068500D1A32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38093432201D068400D1A32B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38093439201D068400D1A32B;
+			remoteInfo = DataPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3809343A201D068400D1A32B /* DataPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3809343D201D068400D1A32B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3809343F201D068400D1A32B /* KVPrimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVPrimeTableViewController.swift; sourceTree = "<group>"; };
+		38093441201D068400D1A32B /* KVMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVMapViewController.swift; sourceTree = "<group>"; };
+		38093444201D068400D1A32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38093446201D068400D1A32B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38093449201D068400D1A32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3809344B201D068400D1A32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38093450201D068400D1A32B /* DataPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38093454201D068500D1A32B /* DataPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPadTests.swift; sourceTree = "<group>"; };
+		38093456201D068500D1A32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3809345B201D068500D1A32B /* DataPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3809345F201D068500D1A32B /* DataPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPadUITests.swift; sourceTree = "<group>"; };
+		38093461201D068500D1A32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38093477201D086400D1A32B /* DataPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataPad.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38093437201D068400D1A32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3809344D201D068400D1A32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38093458201D068500D1A32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38093431201D068400D1A32B = {
+			isa = PBXGroup;
+			children = (
+				3809343C201D068400D1A32B /* DataPad */,
+				38093453201D068400D1A32B /* DataPadTests */,
+				3809345E201D068500D1A32B /* DataPadUITests */,
+				3809343B201D068400D1A32B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3809343B201D068400D1A32B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3809343A201D068400D1A32B /* DataPad.app */,
+				38093450201D068400D1A32B /* DataPadTests.xctest */,
+				3809345B201D068500D1A32B /* DataPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3809343C201D068400D1A32B /* DataPad */ = {
+			isa = PBXGroup;
+			children = (
+				38093472201D084500D1A32B /* Data */,
+				3809346E201D071900D1A32B /* ViewControllers */,
+				3809346D201D069100D1A32B /* GUI */,
+				38093471201D078600D1A32B /* ApplicationSupport */,
+			);
+			path = DataPad;
+			sourceTree = "<group>";
+		};
+		38093453201D068400D1A32B /* DataPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				38093454201D068500D1A32B /* DataPadTests.swift */,
+				38093456201D068500D1A32B /* Info.plist */,
+			);
+			path = DataPadTests;
+			sourceTree = "<group>";
+		};
+		3809345E201D068500D1A32B /* DataPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3809345F201D068500D1A32B /* DataPadUITests.swift */,
+				38093461201D068500D1A32B /* Info.plist */,
+			);
+			path = DataPadUITests;
+			sourceTree = "<group>";
+		};
+		3809346D201D069100D1A32B /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				38093443201D068400D1A32B /* Main.storyboard */,
+				38093446201D068400D1A32B /* Assets.xcassets */,
+				38093448201D068400D1A32B /* LaunchScreen.storyboard */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		3809346E201D071900D1A32B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3809346F201D073700D1A32B /* KVPrimeTableViewController */,
+				38093470201D076200D1A32B /* KVMapViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3809346F201D073700D1A32B /* KVPrimeTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3809343F201D068400D1A32B /* KVPrimeTableViewController.swift */,
+			);
+			path = KVPrimeTableViewController;
+			sourceTree = "<group>";
+		};
+		38093470201D076200D1A32B /* KVMapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				38093441201D068400D1A32B /* KVMapViewController.swift */,
+			);
+			path = KVMapViewController;
+			sourceTree = "<group>";
+		};
+		38093471201D078600D1A32B /* ApplicationSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3809343D201D068400D1A32B /* AppDelegate.swift */,
+				3809344B201D068400D1A32B /* Info.plist */,
+			);
+			name = ApplicationSupport;
+			sourceTree = "<group>";
+		};
+		38093472201D084500D1A32B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				38093473201D084500D1A32B /* Model */,
+				38093474201D084500D1A32B /* Controllers */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		38093473201D084500D1A32B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38093476201D086400D1A32B /* DataPad.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38093474201D084500D1A32B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				38093475201D084500D1A32B /* Abstract */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		38093475201D084500D1A32B /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38093439201D068400D1A32B /* DataPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38093464201D068500D1A32B /* Build configuration list for PBXNativeTarget "DataPad" */;
+			buildPhases = (
+				38093436201D068400D1A32B /* Sources */,
+				38093437201D068400D1A32B /* Frameworks */,
+				38093438201D068400D1A32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataPad;
+			productName = DataPad;
+			productReference = 3809343A201D068400D1A32B /* DataPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3809344F201D068400D1A32B /* DataPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38093467201D068500D1A32B /* Build configuration list for PBXNativeTarget "DataPadTests" */;
+			buildPhases = (
+				3809344C201D068400D1A32B /* Sources */,
+				3809344D201D068400D1A32B /* Frameworks */,
+				3809344E201D068400D1A32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38093452201D068400D1A32B /* PBXTargetDependency */,
+			);
+			name = DataPadTests;
+			productName = DataPadTests;
+			productReference = 38093450201D068400D1A32B /* DataPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3809345A201D068500D1A32B /* DataPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3809346A201D068500D1A32B /* Build configuration list for PBXNativeTarget "DataPadUITests" */;
+			buildPhases = (
+				38093457201D068500D1A32B /* Sources */,
+				38093458201D068500D1A32B /* Frameworks */,
+				38093459201D068500D1A32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3809345D201D068500D1A32B /* PBXTargetDependency */,
+			);
+			name = DataPadUITests;
+			productName = DataPadUITests;
+			productReference = 3809345B201D068500D1A32B /* DataPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38093432201D068400D1A32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kenn Villegas";
+				TargetAttributes = {
+					38093439201D068400D1A32B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3809344F201D068400D1A32B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38093439201D068400D1A32B;
+					};
+					3809345A201D068500D1A32B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38093439201D068400D1A32B;
+					};
+				};
+			};
+			buildConfigurationList = 38093435201D068400D1A32B /* Build configuration list for PBXProject "DataPad" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38093431201D068400D1A32B;
+			productRefGroup = 3809343B201D068400D1A32B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38093439201D068400D1A32B /* DataPad */,
+				3809344F201D068400D1A32B /* DataPadTests */,
+				3809345A201D068500D1A32B /* DataPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38093438201D068400D1A32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3809344A201D068400D1A32B /* LaunchScreen.storyboard in Resources */,
+				38093447201D068400D1A32B /* Assets.xcassets in Resources */,
+				38093445201D068400D1A32B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3809344E201D068400D1A32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38093459201D068500D1A32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38093436201D068400D1A32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38093442201D068400D1A32B /* KVMapViewController.swift in Sources */,
+				38093440201D068400D1A32B /* KVPrimeTableViewController.swift in Sources */,
+				3809343E201D068400D1A32B /* AppDelegate.swift in Sources */,
+				38093478201D086400D1A32B /* DataPad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3809344C201D068400D1A32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38093455201D068500D1A32B /* DataPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38093457201D068500D1A32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38093460201D068500D1A32B /* DataPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38093452201D068400D1A32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38093439201D068400D1A32B /* DataPad */;
+			targetProxy = 38093451201D068400D1A32B /* PBXContainerItemProxy */;
+		};
+		3809345D201D068500D1A32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38093439201D068400D1A32B /* DataPad */;
+			targetProxy = 3809345C201D068500D1A32B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38093443201D068400D1A32B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38093444201D068400D1A32B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38093448201D068400D1A32B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38093449201D068400D1A32B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38093462201D068500D1A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38093463201D068500D1A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38093465201D068500D1A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = DataPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.DataPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38093466201D068500D1A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = DataPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.DataPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38093468201D068500D1A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = DataPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.DataPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataPad.app/DataPad";
+			};
+			name = Debug;
+		};
+		38093469201D068500D1A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = DataPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.DataPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataPad.app/DataPad";
+			};
+			name = Release;
+		};
+		3809346B201D068500D1A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = DataPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.DataPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DataPad;
+			};
+			name = Debug;
+		};
+		3809346C201D068500D1A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = DataPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.DataPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DataPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38093435201D068400D1A32B /* Build configuration list for PBXProject "DataPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38093462201D068500D1A32B /* Debug */,
+				38093463201D068500D1A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38093464201D068500D1A32B /* Build configuration list for PBXNativeTarget "DataPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38093465201D068500D1A32B /* Debug */,
+				38093466201D068500D1A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38093467201D068500D1A32B /* Build configuration list for PBXNativeTarget "DataPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38093468201D068500D1A32B /* Debug */,
+				38093469201D068500D1A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3809346A201D068500D1A32B /* Build configuration list for PBXNativeTarget "DataPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3809346B201D068500D1A32B /* Debug */,
+				3809346C201D068500D1A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38093476201D086400D1A32B /* DataPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38093477201D086400D1A32B /* DataPad.xcdatamodel */,
+			);
+			currentVersion = 38093477201D086400D1A32B /* DataPad.xcdatamodel */;
+			path = DataPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38093432201D068400D1A32B /* Project object */;
+}
