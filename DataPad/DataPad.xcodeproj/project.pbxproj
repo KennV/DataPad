@@ -16,6 +16,7 @@
 		38093455201D068500D1A32B /* DataPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38093454201D068500D1A32B /* DataPadTests.swift */; };
 		38093460201D068500D1A32B /* DataPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809345F201D068500D1A32B /* DataPadUITests.swift */; };
 		38093478201D086400D1A32B /* DataPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38093476201D086400D1A32B /* DataPad.xcdatamodeld */; };
+		3809347B201D08F900D1A32B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3809347A201D08F900D1A32B /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3809345F201D068500D1A32B /* DataPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPadUITests.swift; sourceTree = "<group>"; };
 		38093461201D068500D1A32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38093477201D086400D1A32B /* DataPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataPad.xcdatamodel; sourceTree = "<group>"; };
+		3809347A201D08F900D1A32B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3809347B201D08F900D1A32B /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				38093453201D068400D1A32B /* DataPadTests */,
 				3809345E201D068500D1A32B /* DataPadUITests */,
 				3809343B201D068400D1A32B /* Products */,
+				38093479201D08F900D1A32B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,6 +205,14 @@
 			children = (
 			);
 			path = Abstract;
+			sourceTree = "<group>";
+		};
+		38093479201D08F900D1A32B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3809347A201D08F900D1A32B /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
